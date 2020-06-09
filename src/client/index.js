@@ -1,4 +1,5 @@
-import { helloWorld } from './js/hello'
+import { setupBoard } from './js/soundboard'
+import { setupMovieQuotes } from './js/movie-quotes'
 
 import './styles/main.scss'
 
@@ -8,5 +9,8 @@ var logoImg = document.querySelector('.logo');
 logoImg.src = logoIcon;
 
 export {
-    helloWorld
+    setupBoard,
+    setupMovieQuotes
 }
+
+setupBoard()
