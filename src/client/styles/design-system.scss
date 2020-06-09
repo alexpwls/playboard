@@ -1,0 +1,22 @@
+$font-stack: 'PT Serif', serif;
+$main-color: #ececec;
+$font-color: #333;
+
+h1,
+h2,
+h3,
+p,
+a,
+span,
+li,
+blockquote,
+input,
+button,
+figcaption,
+label,
+textarea,
+::placeholder,
+select {
+	font-family: $font-stack;
+	color: $font-color;
+}

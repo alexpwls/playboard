@@ -1,0 +1,14 @@
+@import "design-system";
+
+body {
+    background: $main-color;
+}
+
+.logo {
+	width: 18px;
+}
+
+h1 a {
+	text-decoration: none;
+	color: $font-color;
+}
