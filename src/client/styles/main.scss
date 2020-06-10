@@ -54,10 +54,18 @@ section {
 }
 
 footer {
+	padding: 10px;
 	grid-area: ft;
 
 	p {
 		text-align: center;
 		font-size: 0.9em;
+	}
+
+	.legal {
+		margin-top: 10px;
+		text-align: left;
+		font-size: 0.7em;
+		font-style: italic;
 	}
 }

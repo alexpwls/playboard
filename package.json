@@ -1,5 +1,5 @@
 {
-  "name": "template-app",
+  "name": "playboard",
   "version": "1.0.0",
   "description": "Default template for starting new projects.",
   "main": "index.js",
@@ -41,5 +41,18 @@
     "build-prod": "webpack --config webpack.prod.js"
   },
   "author": "Alex Pauwels",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpwls/soundboard.git"
+  },
+  "keywords": [
+    "sound",
+    "soundboard",
+    "playboard"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexpwls/soundboard/issues"
+  },
+  "homepage": "https://github.com/alexpwls/soundboard#readme"
 }

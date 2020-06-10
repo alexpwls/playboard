@@ -1,21 +1,16 @@
-const boardSection = document.querySelector('.board');
-
-
 function setupBoard() {
-    let movieQuotes = [1, 2, 3, 4, 5, 6, 7, 8];
-    // Client.setupMovieQuotes();
-    for (i of movieQuotes) {
-        boardSection.insertAdjacentHTML('beforeend', itemHTML(i));
-        console.log(i);
+    const boardSection = document.querySelector('.board');
+    const soundEffects = Client.setupSoundEffects();
+    for (let item of soundEffects) {
+        boardSection.insertAdjacentHTML('beforeend', itemHTML(item));
     }
-    console.log("test");
 };
 
-function itemHTML(i) {
+function itemHTML(item) {
     const html = `<div class="item">
-                    <p>${i}</p>
+                    <p>${item}</p>
                 </div>`;
     return html;
-}
+};
 
 export { setupBoard };

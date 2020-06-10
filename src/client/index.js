@@ -1,5 +1,5 @@
 import { setupBoard } from './js/soundboard'
-import { setupMovieQuotes } from './js/movie-quotes'
+import { setupSoundEffects } from './js/sound-effects'
 
 import './styles/main.scss'
 
@@ -10,7 +10,9 @@ logoImg.src = logoIcon;
 
 export {
     setupBoard,
-    setupMovieQuotes
+    setupSoundEffects
 }
 
-setupBoard()
+document.addEventListener("DOMContentLoaded", function() {
+    setupBoard();
+});
