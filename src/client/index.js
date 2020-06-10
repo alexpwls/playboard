@@ -1,6 +1,7 @@
 import { setupBoard } from './js/soundboard'
-import { setupSoundEffects } from './js/sound-effects'
+import { setupSound } from './js/sound'
 import { playAudio } from './js/play-audio'
+import { updateNav } from './js/updateNav'
 
 import './styles/main.scss'
 
@@ -11,10 +12,12 @@ logoImg.src = logoIcon;
 
 export {
     setupBoard,
-    setupSoundEffects,
-    playAudio
+    setupSound,
+    playAudio,
+    updateNav
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    setupBoard();
+    setupBoard('0');
+    updateNav();
 });
