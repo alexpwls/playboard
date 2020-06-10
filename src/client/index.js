@@ -10,6 +10,9 @@ import logoIcon from './media/logo.png';
 var logoImg = document.querySelector('.logo');
 logoImg.src = logoIcon;
 
+var logoFooterImg = document.querySelector('.logo-footer');
+logoFooterImg.src = logoIcon;
+
 export {
     setupBoard,
     setupSound,
