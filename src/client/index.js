@@ -1,5 +1,6 @@
 import { setupBoard } from './js/soundboard'
 import { setupSoundEffects } from './js/sound-effects'
+import { playAudio } from './js/play-audio'
 
 import './styles/main.scss'
 
@@ -10,7 +11,8 @@ logoImg.src = logoIcon;
 
 export {
     setupBoard,
-    setupSoundEffects
+    setupSoundEffects,
+    playAudio
 }
 
 document.addEventListener("DOMContentLoaded", function() {

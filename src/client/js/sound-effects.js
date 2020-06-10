@@ -1,5 +1,5 @@
 function setupSoundEffects() {
-    const soundEffects = [1, 2, 3, 4, 5, 6, 7, 8];
+    const soundEffects = ["clapping", "laugh", "booing", "cheering", "ahh", "ooh", "wow", "sigh"];
     return soundEffects;
 }
 
