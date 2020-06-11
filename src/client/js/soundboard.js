@@ -17,7 +17,7 @@ function itemHTML(item, slug) {
                         <source src="/dist/media/sound/sound-effects/${slug}/${item}.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
-                    <button onclick="Client.playAudio('${item}')" type="button">${item}</button>
+                    <button id="button-${item}"onclick="Client.playAudio('${item}')" type="button">${item}</button>
                 </div>`;
     return html;
 };

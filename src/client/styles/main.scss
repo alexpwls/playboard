@@ -75,6 +75,11 @@ section {
 		text-align: center;
 	}
 
+	.pause {
+		width: 40px;
+		height: 40px;
+	}
+
 	.board {
 		display: flex;
 		flex-wrap: wrap;
@@ -92,7 +97,10 @@ section {
 			text-transform: uppercase;
 			font-size: 1em;
 			border: 1px solid $darkgrey-color;
+			background: #fff;
 		}
+
+
 	}
 }
 
