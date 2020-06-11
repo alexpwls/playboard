@@ -1,9 +1,9 @@
-const HtmlWebPackPlugin = require('html-webpack-plugin')
+const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'production',
@@ -47,7 +47,7 @@ module.exports = {
         new WorkboxPlugin.GenerateSW(),
         new CopyWebpackPlugin({
             patterns: [
-              { from: "./src/client/media", to: "media" },
+              { from: "./src/client/media", to: "dist/media" },
             ],
         }),
     ]
