@@ -2,7 +2,7 @@
 [logo]: https://alexpwls.github.io/personal-blog-website/images/favicon/favicon-16x16.png "Purple dot"
 
 
-Demo link: [http://64.227.28.199](http://64.227.28.199 "Demo link")
+Demo link: [https://www.playboard.be/](https://www.playboard.be/ "www.playboard.be")
 ---
 
 ## Description:
